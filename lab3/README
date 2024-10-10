@@ -1,0 +1,63 @@
+For the following lab 3 both of the sorting algorithims have worked fine.
+
+Analysis: 
+
+INSERTION SORT-
+
+Best case: When the numbers are already sorted 
+
+When "1 2 3 4" is typed:
+Comparisons = 3
+Swaps = 0
+Copy operations = 6
+
+Time Complexity = Omega(n)
+
+
+
+Worst case: When the numbers are sorted in reverse 
+
+When "4 3 2 1" is typed:
+Comparisons = 6
+Swaps = 6 
+Copy operations = 6  
+
+Time Complexity = o(n^2)
+
+
+
+Average case: When some numbers are sorted and some are not
+
+When "1 3 2 4" is typed:
+Comparisons = 4
+Swaps = 1 
+Copy operations = 6  
+
+Time Complexity = sandwhich between o(n^2) and Omega(n)
+
+
+MERGE SORT-
+
+Best case: When the numbers are already sorted 
+
+When "1 2 3 4" is typed:
+Comparisons = 7
+Swaps = 12
+Copy operations = 5
+
+
+Worst case: When the numbers are sorted in reverse 
+
+When "5 4 3 2 1" is typed:
+Comparisons = 5
+Swaps = 12 
+Copy operations = 7  
+
+
+Average case: When some numbers are sorted and some are not
+
+When "1 3 4 2 5" is typed:
+Comparisons = 8
+Swaps = 12 
+Copy operations = 4  
+
